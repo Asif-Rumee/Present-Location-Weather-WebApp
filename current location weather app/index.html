@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1">
+
+    <title>Weather W3e</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <section id="header" class="mt-sm-5 mb-sm-5">
+        <div class="container-fluid">
+            <ul class="list-unstyled">
+                <li class="list-item" id="current-location">
+                    <h1></h1>
+                </li>
+                <li class="list-item" id="current-time">
+                    <h4></h4>
+                </li>
+                <li class="list-item" id="current-state">
+                    <h4></h4>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="results" class="mt-sm-5 mb-sm-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 float-left">
+                    <div>
+                        <ul class="list-unstyled">
+                            <li class="list-item">
+                                <img src="images/sun.png" class="weather-symbol">
+                            </li>
+                            <li class="list-item" id="temperature">
+                                <h2></h2>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 float-right">
+                    <div>
+                        <ul class="list-unstyled">
+                            <li class="list-item" id="precip-intensity">
+                                <h4></h4>
+                            </li>
+                            <li class="list-item" id="humidity">
+                                <h4></h4>
+                            </li>
+                            <li class="list-item" id="wind-speed">
+                                <h4></h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="float-left">
+
+                </div>
+                <div class="float-right">
+                    <ul class="nav nav-tabs bg-muted justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">Heat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">Rainfall</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-muted" href="#">Wind</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="diagram" class="mt-sm-5 mb-sm-5">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="footer">
+                    <img src="images/diagram.png" class="weather-diagram">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js\weather-app.js"></script>
+    <script src="js\jquery-3.4.1.js"></script>
+    <script src="js\bootsrap.min.js"></script>
+</body>
+
+</html>

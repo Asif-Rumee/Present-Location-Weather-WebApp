@@ -1,0 +1,14 @@
+.weather-symbol {
+    width: 5rem;
+    height: 5rem;
+}
+
+.weather-diagram {
+    width: 100%;
+    height: 10rem;
+}
+
+.footer {
+    width: 80%;
+    height: auto;
+}
